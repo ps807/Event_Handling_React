@@ -8,11 +8,11 @@ function App() {
     setHeadingText("Submitted");
   }
 
-  function handleOnMouseOver() {
+  function handleMouseOver() {
     setButtonBackgroundColor("black");
   }
 
-  function handleOnMouseOut() {
+  function handleMouseOut() {
     setButtonBackgroundColor("white");
   }
 
@@ -22,8 +22,8 @@ function App() {
       <input type="text" placeholder="What's your name?" />
       <button
         onClick={handleClick}
-        onMouseOver={handleOnMouseOver}
-        onMouseOut={handleOnMouseOut}
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
         style={{ backgroundColor: buttonBackgroundColor }}
       >
         Submit
