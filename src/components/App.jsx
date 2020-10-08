@@ -32,4 +32,7 @@ function App() {
   );
 }
 
+// Alternative style attribute:
+// style={{ backgroundColor: isMouseOver ? "black" : "white" }}
+
 export default App;
